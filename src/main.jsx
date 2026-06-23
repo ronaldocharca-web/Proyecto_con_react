@@ -1,10 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
+import ContadorApp from './ContadorApp'
+import ListadoApp from './ListadoApp'
+
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+  <ContadorApp value={100} />
+  <ListadoApp />
   </StrictMode>,
 )
