@@ -1,7 +1,11 @@
 body,html{
-  background: #303030;
+  background: #000000;
   padding: 10px;
+  color:white;
 }
 .rojo{
   color: aqua;
+}
+button{
+  margin: 10px;
 }
