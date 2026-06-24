@@ -1,5 +1,5 @@
 import { useState } from "react"
-import Agregartarea from "./styles/components/Agregartarea"
+import Agregartarea from "./components/Agregartarea"
 
 const Itemms = ({ nombre, visto }) => {
   return (
